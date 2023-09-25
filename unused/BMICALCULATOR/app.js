@@ -32,7 +32,7 @@ function display_bmi(bmi){
     }
 
     else if(bmi >= 25.0 && bmi <= 39.9){
-        p.textContent = `Underweight ${bmi}`;
+        p.textContent = `Overweight ${bmi}`;
     }
 
     else{
